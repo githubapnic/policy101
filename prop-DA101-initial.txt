@@ -1,0 +1,56 @@
+-----------------------------------------------------------------------------------
+
+prop-DA101v001: Improving WHOIS Contact Accuracy Through Annual Validation and Structured Remediation
+
+-----------------------------------------------------------------------------------
+
+Proposer:
+Saima Nisar
+
+
+1. Problem Statement
+-------------------------
+A significant number of APNIC WHOIS contact records appear to be outdated or unresponsive. This contributes to operational delays when networks attempt to contact the appropriate administrators about abuse issues, routing problems, or security incidents.
+Although APNIC runs IRT email validation every six months, this process does not cover all relevant contacts and is insufficient to maintain overall WHOIS data quality.
+
+2. Objective
+-------------------------
+To improve WHOIS data accuracy by extending validation requirements beyond IRT objects, ensuring all members maintain current and responsive contact information.
+
+3. Proposal
+-------------------------
+
+3.1 Annual validation
+APNIC will validate the following contact types once per year:
+    - admin c
+    - tech c
+    - IRT / abuse-mailbox
+Validation will occur via automated email containing a confirmation link.
+
+3.2 Failure to validate
+If a contact does not respond:
+    - The WHOIS object will be marked as invalid.
+    - Members must update the contact information before the next annual cycle.
+
+3.3 Enforcement
+If contact details remain invalid after the next annual validation attempt:
+    - APNIC may temporarily restrict some MyAPNIC functions until the contacts are corrected.
+
+3.4 Reporting
+APNIC will publish periodic statistics on validation results.
+
+4. Advantages
+-------------------------
+    - Improves WHOIS accuracy
+    - Helps operators and security teams reach the appropriate contact
+    - Encourages members to maintain up to date records
+
+5. Disadvantages
+-------------------------
+None Identified
+
+6. Impact on Members
+-------------------------
+Members will need to complete an annual validation for multiple contact types.
+Some administrative effort may be required, especially for organisations with many registered contacts.
+
