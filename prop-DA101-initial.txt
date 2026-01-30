@@ -22,8 +22,8 @@ To improve WHOIS data accuracy by extending validation requirements beyond IRT o
 
 3.1 Annual validation
 APNIC will validate the following contact types once per year:
-    - admin c
-    - tech c
+    - admin-c
+    - tech-c
     - IRT / abuse-mailbox
 Validation will occur via automated email containing a confirmation link.
 
