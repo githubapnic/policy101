@@ -1,0 +1,86 @@
+-----------------------------------------------------------------------------------
+
+prop-DA101v002: Improving WHOIS Contact Accuracy Through Annual Validation and Structured Remediation
+
+-----------------------------------------------------------------------------------
+
+Proposer:
+Saima Nisar
+
+
+1. Problem Statement
+-------------------------
+A significant proportion of APNIC WHOIS contact information — including admin-c, tech-c, and IRT emails — is outdated, unresponsive, or invalid.
+This undermines:
+    - Abuse management and incident response
+    - Coordination between network operators
+    - Obligations to respond to security incidents
+    - The accuracy and utility of APNIC’s public registry
+    - The ability of CERTs/CSIRTs and LEAs to reach responsible parties
+APNIC’s current IRT validation mechanism provides partial coverage but is insufficient to ensure overall WHOIS contact quality.
+
+2. Objective
+-------------------------
+To improve the accuracy, responsiveness, and reliability of WHOIS contact information in the APNIC region by introducing:
+1.	Annual validation of admin-c, tech-c, and IRT email contacts
+2.	A clear remediation process for invalid contacts
+3.	Lightweight enforcement measures to encourage timely updates
+4.	Transparency reporting at an aggregate (non identifying) level
+
+3. Proposal
+-------------------------
+
+3.1 Annual Automated Validation
+APNIC will annually send validation emails to:
+    - admin-c
+    - tech-c
+    - IRT contacts
+Contacts must click a unique validation link or update their details in MyAPNIC.
+
+3.2 Remediation Window
+If a contact fails validation:
+    - A 90 day remediation period begins
+    - Automated reminders sent at 30/60/90 days
+    - Members update the contact or nominate a replacement
+
+3.3 Enforcement Ladder
+If validation still fails after 90 days:
+1.	WHOIS object marked as “invalid”
+2.	MyAPNIC capabilities restricted to contact related updates
+3.	Resource transfer requests paused until validation is completed 
+    - Does not affect routing or existing resource usage
+3.4 Exemptions and Special Cases
+    - NIRs may integrate the system into their internal processes
+    - Small LIRs may request a one time 90 day extension
+    - Critical infrastructure operators may request temporary deferral
+3.5 Transparency
+    - Only aggregated regional statistics published
+    - No individual member details disclosed
+
+
+4. Advantages
+-------------------------
+    - More effective abuse handling and security coordination
+    - Reduced operational friction between networks
+    - Increased trust in WHOIS data
+    - Better alignment with global routability and accuracy expectations
+    - Improved CERT and LEA outcomes
+
+
+5. Disadvantages
+-------------------------
+None Identified
+
+6. Impact on Members
+-------------------------
+Administrative:
+    - Annual validation step requiring minimal action
+    - Contact updates may require internal process changes
+Operational:
+    - Faster incident response
+    - Reduced misdirected abuse reports
+Financial:
+    - No direct cost to members
+    - APNIC bears engineering/operational cost
+
+
